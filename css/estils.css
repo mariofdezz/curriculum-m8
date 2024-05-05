@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+nav {
+	background-color:rgb(7, 5, 5);
+	height: 75px;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	padding: 5;
+
+}
+
+.menu {
+	margin-left: auto;
+
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+li {
+	margin: 0 10px;
+}
+
+li a {
+	color: #fff;
+	font-size: 0.7rem;
+	text-decoration: none;
+}
+
+.titulo {
+	background-size: cover;
+	height: 420px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 1.5rem;
+	text-align: center;
+    color: black;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column-1-1 {
+    width: 100%;
+    text-align: center;
+}
+
+.descargar {
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.5rem;
+}
+
+.column-2 {
+    width: 47%;
+    margin-left: 2%;
+}
+
+.column-2-2 {
+    width: 48%;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.quiensoy {
+    color: rgb(14, 2, 2);
+    width: 100%;
+}
+
+h2 {
+	font-size: 1.2rem;
+	text-align: center;
+    color: rgb(15, 1, 1);
+}
+
+h3 {
+    font-size: 0.9rem;
+	text-align: center;
+    color: rgb(15, 1, 1);
+}
+
+.informacion {
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: rgb(11, 0, 0);
+    text-align: left;
+}
+
+.informacion2 {
+    font-size: 0.5rem;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5%;
+}
+
+iframe {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: grey;
+}
+
+.tituloform {
+    font-size: 1.3rem;
+	text-align: center;
+    color: black;
+}
+
+.margincenter {
+    text-align: center;
+    font-weight: normal;
+}
+
+.subtitulosform {
+    font-size: 0.9rem;
+	text-align: center;
+    color: rgb(21, 13, 13);
+}
+
+footer {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.logo2 {
+	padding: 5;
+}
+
+.widthimgfooter {
+    width: 20%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .logo2 {
+        position: fixed;
+    }
+
+    .nav{
+        position: fixed;
+    }
+
+    li a {
+        font-size: 0.3rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        font-size: 0.7rem;
+    }
+
+    .column-2 {
+        width: 100%;
+    }
+    
+    .column-2-2 {
+        width: 100%;
+    }
+
+    iframe {
+        width: 80%;
+    }
+    
+    .titulo {
+        width: 100%;
+    }
+   
+    .informacion {
+        font-size: 0.5rem;
+    }
+ 
+    .informacion2 {
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    
+    .tituloform {
+        font-size: 0.9rem;
+    }
+    
+    .logo {
+        margin-top: -11%;
+    }
+   
+    .menu {
+        margin-left: auto;
+        margin-top: 0%;
+        text-align: center;
+    }
+
+    .widthimgfooter {
+        width: 20%;
+        margin: right;
+    }
+}
